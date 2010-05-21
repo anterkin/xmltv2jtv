@@ -1,7 +1,7 @@
 #summary JTV TV program format is mostly used in exUSSR countries.
 #labels Featured,Phase-Implementation
 
-= Introduction =
+= Description =
 
 JTV requires 2 separate files for each channel: 
  # *.pdt* - contains program names.

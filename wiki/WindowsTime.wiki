@@ -1,10 +1,14 @@
-#summary Windows time format
+#summary Windows time format (time stamp)
 #labels Featured
 
-= Introduction =
+= Description =
 
-Add your content here.
-
+ Windows time is stored in FILETIME structure:
+{{{typedef struct _FILETIME {
+  DWORD dwLowDateTime;
+  DWORD dwHighDateTime;
+} FILETIME; 
+}}}
 
 = Details =
 

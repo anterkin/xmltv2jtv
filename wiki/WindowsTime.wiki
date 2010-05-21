@@ -4,7 +4,8 @@
 = Description =
 
  Windows time is stored in FILETIME structure:
-{{{typedef struct _FILETIME {
+{{{
+typedef struct _FILETIME {
   DWORD dwLowDateTime;
   DWORD dwHighDateTime;
 } FILETIME; 

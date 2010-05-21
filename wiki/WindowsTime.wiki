@@ -18,4 +18,4 @@ typedef struct _FILETIME {
  long DIFF_IN_MILLIS = 11644473600000L;
 }}}
 
-DIFF_IN_MILLIS is the difference between January 1 1601 and January 1 1970 in milliseconds. Done according to Gregorian Calendar, no correction for 1752-09-02 Wednesday was followed immediately by 1752-09-14 Thursday dropping 12 days. Also according to [http://gcc.gnu.org/ml/java-patches/2003-q1/msg00565.html].
+ DIFF_IN_MILLIS is the difference between January 1 1601 and January 1 1970 in milliseconds. Done according to Gregorian Calendar, no correction for 1752-09-02 Wednesday was followed immediately by 1752-09-14 Thursday dropping 12 days. Also according to [http://gcc.gnu.org/ml/java-patches/2003-q1/msg00565.html].

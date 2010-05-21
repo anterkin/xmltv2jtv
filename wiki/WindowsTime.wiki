@@ -14,7 +14,6 @@ typedef struct _FILETIME {
 = Details =
 
  Java timestamps use 64-bit milliseconds since 1970 GMT. Windows timestamps use 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601, with ten thousand times as much precision.
-
 {{{
  long DIFF_IN_MILLIS = 11644473600000L;
 }}}

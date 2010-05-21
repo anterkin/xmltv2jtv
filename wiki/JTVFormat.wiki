@@ -4,8 +4,10 @@
 = Introduction =
 
 JTV requires 2 separate files for each channel: 
- # *.pdt
- # *.ndx
+ # *.pdt*
+ # *.ndx*
+
+1. .pdt file contains programm names (encoding is unknown, Cyrillic uses win-1251) 
 
 
 = Details =

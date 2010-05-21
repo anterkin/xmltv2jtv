@@ -11,5 +11,5 @@ JTV requires 2 separate files for each channel:
 
 2. *.ndx* file starts with 2 byte number (count of records) followed by 12 byte records:
    * 2 byte - always *0* value
-   * 8 byte - windows *FILETIME* structure, actually 64bit integer representing windows time in milliseconds - program start time.
+   * 8 byte - windows [http://code.google.com/p/xmltv2jtv/wiki/WindowsTime *FILETIME*] structure, actually 64bit integer representing windows time in milliseconds - program start time.
    * 2 byte - offset in *.pdt* file to find program name.

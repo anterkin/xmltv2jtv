@@ -7,7 +7,7 @@ JTV requires 2 separate files for each channel:
  # *.pdt* - contains program names.
  # *.ndx* - contains program schedule.
 
-1. *.pdt* file always starts with string *"JTV 3.x TV Program Data"* followed by 3 bytes with hex values *A0*. Then goes 2 bytes program name length and program name itself (encoding is unknown, Cyrillic uses win-1251) 
+1. *.pdt* file always starts with string "*JTV 3.x TV Program Data*" followed by 3 bytes with hex values *A0*. Then goes 2 bytes program name length and program name itself (encoding is unknown, Cyrillic uses win-1251) 
 
 
 = Details =

@@ -1,4 +1,4 @@
-#summary JTV TV program format is mostly used in exUSSR countries.
+#summary JTV is a TV program format that is mostly used in exUSSR countries.
 #labels Featured,Phase-Implementation
 
 = Description =

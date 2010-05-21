@@ -24,12 +24,12 @@ private static final long DIFF_IN_MILLIS = 11644473600000L;
 
  Conversion between Java and Windows times:
 {{{
-public static long getJavaTime(Long windowsTime)
+public static long getJavaTime(longwindowsTime)
 {
    return (windowsTime / 10000) - DIFF_IN_MILLIS;
 }
 
-public static long getWindowsTime(Long javaTime)
+public static long getWindowsTime(longjavaTime)
 {
    return (javaTime + DIFF_IN_MILLIS) * 10000;
 }

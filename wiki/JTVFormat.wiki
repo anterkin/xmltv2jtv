@@ -7,12 +7,9 @@ JTV requires 2 separate files for each channel:
  # *.pdt* - contains program names.
  # *.ndx* - contains program schedule.
 
-1. *.pdt* file always starts with string "*JTV 3.x TV Program Data*" followed by 3 bytes with hex values *A0*. Then goes 2 bytes program name length and program name itself (encoding is unknown, for Cyrillic win-1251 is used) 
+1. *.pdt* file always starts with string "*JTV 3.x TV Program Data*" followed by 3 bytes with hex values *A0*. Then goes 2 byte program name length and program name itself (encoding is unknown, for Cyrillic win-1251 is used) 
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+2. *.ndx* file starts with 2 byte record number followed by 12 byte records:
+   2 byte - always 0 value
+   8 byte - windows FILETIME structure, actually 64bit integer representing windows time in milliseconds - program start time.
+   2 byte - offset in *.pdt* file to find program name.

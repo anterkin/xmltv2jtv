@@ -1,4 +1,4 @@
-#summary Describes Windows time
+#summary Windows time format
 
 = Introduction =
 

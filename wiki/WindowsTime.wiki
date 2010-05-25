@@ -11,7 +11,7 @@ typedef struct _FILETIME {
 } FILETIME; 
 }}}
 
-Note: *JTV format uses endian different from Java*
+Note: *JTV format uses little endian while Java big endian*
 
 = Details =
 

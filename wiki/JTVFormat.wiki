@@ -15,4 +15,4 @@ JTV requires 2 separate files for each channel:
    * 2 byte - offset in *.pdt* file to find program name.
 
 
-Note: *JTV format uses little endian while Java uses networkbyte order - big endian*
+Note: *JTV format uses little endian while Java uses network byte order - big endian*

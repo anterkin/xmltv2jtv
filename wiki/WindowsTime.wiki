@@ -33,3 +33,5 @@ public static long getWindowsTime(long javaTime)
    return (javaTime + DIFF_IN_MILLIS) * 10000;
 }
 }}}
+
+[http://code.google.com/p/xmltv2jtv/wiki/JTVFormat Go to JTV format description]

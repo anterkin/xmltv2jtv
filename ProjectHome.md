@@ -1,0 +1,3 @@
+Utility program/library to convert between xmltv and jtv Tv program formats
+
+work in progress...
